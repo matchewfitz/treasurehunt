@@ -18,6 +18,7 @@ repositories {
 dependencies {
   compile 'org.codehaus.groovy:groovy-all:2.3.11'
   compile "org.springframework.boot:spring-boot-starter-web:$spring_boot_version"
+  compile "org.springframework.boot:spring-boot-starter-data-mongodb:$spring_boot_version"
   compile "org.codehaus.groovy:groovy-all:$groovy_version"
   testCompile group: 'junit', name: 'junit', version: '4.11'
 }
